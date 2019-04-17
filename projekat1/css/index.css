@@ -1,0 +1,274 @@
+html{
+    margin: 0px 0px 0px 0px;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+p,h1{
+    font-family: 'Metal Mania', cursive;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    position:fixed;
+}
+.nav ul{
+    margin-left: auto;
+    margin-top: 0px;
+}
+.nav ul li{
+    display: inline;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: 'Metal Mania', cursive;
+    font-size: 30px;
+    align-self: center;
+}
+.nav a:hover{
+    color:red;
+}
+.landing{
+    width: 100%;
+    height: 920px;
+    background-color: black;
+    background-image: url("slike/bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ukratko{
+    
+    height: 500px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cov1{
+    width: 100%;
+    height: 400px;
+    background-image: url(slike/met2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div[name="2"]{
+    background-image: url(slike/met3.jpg);
+}
+#hc,#ha{
+    text-align: center;
+}
+.clanovi{
+    width: 960px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.clanovi div{
+    width: 1090px;
+    width: 200px;
+    height: 320px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+.clan{
+    width: 200px;
+    height: 300px;
+}
+
+div[name="james"]{
+    float: left;
+}
+
+div[name="kirk"]{
+    float: left;
+}
+div[name="lars"]{
+    float: left;
+}
+div[name="rob"]{
+    float: left;
+    margin-right: 0px;
+}
+.albumi{
+    width: 100%;
+    height: 800px;
+    margin-top:200px;
+}
+.album1{
+    width:100%;
+    height:200px;
+    border:1px solid black;
+    margin-bottom: 100px;
+    background-color: #161919;
+    overflow: hidden;
+
+}
+.album1 img{
+    width: 200px;
+    height: 200px;
+}
+.sl1{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+
+.album2{
+    width:100%;
+    height:200px;
+    border:1px solid black;
+    margin-bottom: 100px;
+    background-color: #161919;
+    color: white;
+}
+.album2 a{
+    color: white;
+    font-family: 'Metal Mania', cursive;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.album3{
+    width:100%;
+    height:200px;
+    border:1px solid black;
+    background-color: #161919;
+    color: white;
+}
+.album3 a{
+    color: white;
+    font-family: 'Metal Mania', cursive;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.munjaIpesma{
+    height: 300px;
+    width: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.munjaIpesma img{
+    height: 160px;
+    width: 150px;
+    visibility: hidden;
+}
+img[name="mop"]{
+    width: 200px;
+    height: 200px;
+}
+img[name="1"]{
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes abc{
+    49%{visibility: hidden;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+}
+
+
+
+img[name="2"]{
+    animation-name: a;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes a{
+    49%{visibility: hidden;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+}
+
+
+
+img[name="3"]{
+    animation-name: b;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes b{
+    49%{visibility: hidden;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+}
+
+
+
+
+img[name="4"]{
+    animation-name: c;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes c{
+    70%{visibility: hidden;}
+    71%{visibility: visible;}
+    72%{visibility: hidden;}
+}
+
+
+
+
+img[name="5"]{
+    animation-name: d;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes d{
+    49%{visibility: hidden;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+}
+
+
+
+img[name="6"]{
+    animation-name: e;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes e{
+    79%{visibility: hidden;}
+    80%{visibility: visible;}
+    81%{visibility: hidden;}
+}
+
+
+
+img[name="7"]{
+    animation-name: f;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+@keyframes f{
+    49%{visibility: hidden;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+}
+
+
+
+img[name="8"]{
+    animation-name: g;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes g{
+    89%{visibility: hidden;}
+    90%{visibility: visible;}
+    91%{visibility: hidden;}
+}
